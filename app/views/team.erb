@@ -3,6 +3,6 @@
 
 <% params[:team][:members].each_with_index do |member|%>
   <h2>Hero Name: <%= member[:name] %></h2>
-  <h3>Hero Power: <%= member[:power]%></h3>
-  <h3>Hero Biography: I love Ruby!</h3>
+  <h3>Hero Power: <%= member[:power] %></h3>
+  <h3>Hero Biography: <%= member[:bio]%></h3>
 <% end %>
