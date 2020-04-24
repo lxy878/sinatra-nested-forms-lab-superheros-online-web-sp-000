@@ -11,6 +11,4 @@ class App < Sinatra::Base
   post '/teams' do
 
   end
-
-  
 end
